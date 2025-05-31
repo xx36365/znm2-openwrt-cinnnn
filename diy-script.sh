@@ -10,6 +10,7 @@ git clone --depth=1 https://github.com/xiaoxiao29/luci-app-adguardhome package/l
 #git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
 
 # Themes
+rm package/feeds/packages/mqttled
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
