@@ -11,9 +11,9 @@ git clone --depth=1 https://github.com/xiaoxiao29/luci-app-adguardhome package/l
 
 # Themes
 rm -rf package/feeds/packages/mqttled
-rm -rf package/feeds/packages/utils/mqttled/Makefile
-rm -rf feeds/packages/utils/mqttled/Makefile
-
+rm -rf package/feeds/packages/utils/mqttled
+rm -rf feeds/packages/utils/mqttled
+rm -rf feeds/packages/mqttled
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
